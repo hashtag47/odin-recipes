@@ -1,0 +1,36 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.heading {
+  font-weight: 800;
+  text-decoration: underline;
+  color: #000000;
+}
+
+.ramen-image {
+  width: 300px;
+  height: auto;
+  border: 1px solid rgba(225, 0, 0);
+}
+
+.description-heading,
+.description,
+.description-segment,
+.recipe-steps,
+.procedure {
+  font-weight: 700;
+}
+
+.ingredients li {
+  list-style: square;
+  font-size: smaller;
+  text-decoration: none;
+  color: rgba(45, 100, 150);
+}
+
+.home-button {
+  text-decoration: none;
+  text-align: center;
+  color: rgba(255, 0, 0);
+}
