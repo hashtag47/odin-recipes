@@ -1,6 +1,14 @@
+.webpage {
+  width: 400px;
+  margin: 16px auto;
+  background-color: rgb(240, 240, 240);
+}
+
 .heading {
   font-family: "Courier New", Courier, monospace;
   font-weight: 800;
+  margin: 0 auto;
+  padding: 18px;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
@@ -10,4 +18,10 @@
   font-weight: 700;
   text-decoration: none;
   color: #ff0000;
+  display: block;
+}
+
+.ramen-recipe p {
+  margin-bottom: 16px;
+  text-align: center;
 }
