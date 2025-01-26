@@ -1,25 +1,48 @@
 body {
   font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.webbody {
+  width: 1200px;
+  background-color: rgb(240, 240, 240);
+  margin: 10px auto;
+  padding: 10px;
 }
 
 .heading {
   font-weight: 800;
+  text-align: right;
   text-decoration: underline;
   color: #000000;
+  padding: 10px;
+  margin: 10px 100px;
 }
 
 .ramen-image {
   width: 300px;
   height: auto;
   border: 1px solid rgba(225, 0, 0);
+  padding: 2px;
+  display: block;
+  margin: 10px auto;
 }
 
 .description-heading,
 .description,
 .description-segment,
-.recipe-steps,
-.procedure {
+.recipe-steps {
   font-weight: 700;
+  padding: 10px;
+  margin: 10px 100px;
+}
+
+.description,
+.ingredients,
+.outer-steps {
+  width: 700px;
+  margin: 0 auto;
 }
 
 .ingredients li {
@@ -27,10 +50,36 @@ body {
   font-size: smaller;
   text-decoration: none;
   color: rgba(45, 100, 150);
+  width: 400px;
+  margin: 0 auto;
+}
+
+.outer-steps {
+  list-style: none;
+}
+
+.outer-steps li {
+  width: 600px;
+}
+
+.procedure {
+  margin: 0;
+  padding-left: 10px;
+}
+
+.detail {
+  font-weight: 500;
+  padding: 20px;
+  margin: 0 auto;
 }
 
 .home-button {
+  display: block;
   text-decoration: none;
   text-align: center;
   color: rgba(255, 0, 0);
+  font-size: large;
+  width: 100px;
+  padding: 10px;
+  margin: 10px auto;
 }
